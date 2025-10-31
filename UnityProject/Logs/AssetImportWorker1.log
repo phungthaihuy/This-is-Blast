@@ -15,7 +15,7 @@ E:/Unity/ThisIsBlast/This-is-Blast/UnityProject
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58618
+56664
 Successfully changed project path to: E:/Unity/ThisIsBlast/This-is-Blast/UnityProject
 E:/Unity/ThisIsBlast/This-is-Blast/UnityProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/Unity/ThisIsBlast/This-is-Blast/UnityProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9744] Host "[IP] 192.168.1.47 [Port] 0 [Flags] 2 [Guid] 225804536 [EditorId] 225804536 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2602KDB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2884] Host "[IP] 192.168.1.50 [Port] 0 [Flags] 2 [Guid] 984909956 [EditorId] 984909956 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2602KDB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9744] Host "[IP] 192.168.1.47 [Port] 0 [Flags] 2 [Guid] 225804536 [EditorId] 225804536 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2602KDB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2884] Host "[IP] 192.168.1.50 [Port] 0 [Flags] 2 [Guid] 984909956 [EditorId] 984909956 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2602KDB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 5.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path E:/UnityInstall/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'E:/UnityInstall/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityInstall/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/UnityInstall/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityInstall/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/UnityInstall/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003346 seconds.
-- Loaded All Assemblies, in  0.441 seconds
+Registered in 0.004837 seconds.
+- Loaded All Assemblies, in  0.523 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 309 ms
+Android Extension - Scanning For ADB Devices 310 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.768 seconds
-Domain Reload Profiling: 1209ms
-	BeginReloadAssembly (121ms)
+- Finished resetting the current domain, in  0.765 seconds
+Domain Reload Profiling: 1288ms
+	BeginReloadAssembly (149ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (204ms)
-		LoadAssemblies (121ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (149ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (202ms)
-			TypeCache.Refresh (200ms)
-				TypeCache.ScanAssembly (181ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (204ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (769ms)
+	FinalizeReload (766ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (686ms)
+		SetupLoadedEditorAssemblies (691ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (451ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (446ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (157ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,52 +118,52 @@ Domain Reload Profiling: 1209ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.665 seconds
-Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.693 seconds
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.775 seconds
-Domain Reload Profiling: 1440ms
-	BeginReloadAssembly (150ms)
+- Finished resetting the current domain, in  0.961 seconds
+Domain Reload Profiling: 1654ms
+	BeginReloadAssembly (153ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (434ms)
-		LoadAssemblies (316ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (444ms)
+		LoadAssemblies (306ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (208ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (168ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (776ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (962ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (604ms)
+		SetupLoadedEditorAssemblies (762ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (452ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (586ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (1.5 MB). Loaded Objects now: 3850.
-Memory consumption went from 161.0 MB to 159.4 MB.
-Total: 4.613300 ms (FindLiveObjects: 0.710400 ms CreateObjectMapping: 0.430000 ms MarkObjects: 2.562500 ms  DeleteObjects: 0.908900 ms)
+Unloading 43 unused Assets / (1.5 MB). Loaded Objects now: 3851.
+Memory consumption went from 161.2 MB to 159.6 MB.
+Total: 4.709800 ms (FindLiveObjects: 0.327600 ms CreateObjectMapping: 0.326800 ms MarkObjects: 2.621200 ms  DeleteObjects: 1.432800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,425 +180,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1807.569680 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/1000x1000-screenshot__21_-removebg-preview.png
-  artifactKey: Guid(ba6111cf103ed234db2a0d542e487cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/1000x1000-screenshot__21_-removebg-preview.png using Guid(ba6111cf103ed234db2a0d542e487cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4b80152ab78d932558263eb8e8bd0e') in 0.166481 seconds
+  Time since last request: 8323.656060 seconds.
+  path: Assets/Unity Project - This is Blast/Prefab/Yellow Block Shooter Variant.prefab
+  artifactKey: Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Project - This is Blast/Prefab/Yellow Block Shooter Variant.prefab using Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41ffc780f0b5bd1ccea1898a9b7c8f0') in 0.110928 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 35
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/2 #64830.png
-  artifactKey: Guid(fc78c8213bb10fd49b1069257a1b0599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/2 #64830.png using Guid(fc78c8213bb10fd49b1069257a1b0599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744d4636c17cbed8f88e51147cd93b86') in 0.072473 seconds
+  Time since last request: 3942.901307 seconds.
+  path: Assets/Unity Project - This is Blast/Prefab/Yellow Block Shooter Variant.prefab
+  artifactKey: Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Project - This is Blast/Prefab/Yellow Block Shooter Variant.prefab using Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4a820e15730e314e7495b273bd180e') in 0.054673 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 39
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0001_frame3-11.png
-  artifactKey: Guid(28778965d7837844cb1cc2ec34230753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0001_frame3-11.png using Guid(28778965d7837844cb1cc2ec34230753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84a36937b64e3f76ce4539ba2c5ce77') in 0.037103 seconds
+  Time since last request: 37.235563 seconds.
+  path: Assets/Unity Project - This is Blast/Prefab/Yellow Block Shooter Variant.prefab
+  artifactKey: Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Project - This is Blast/Prefab/Yellow Block Shooter Variant.prefab using Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17bebc718cb82361e74c2606eca317e') in 0.013361 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 39
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/1000x1000-screenshot__4_-removebg-preview (2).png
-  artifactKey: Guid(0afcdb3c1e792444a969099a74ba1ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/1000x1000-screenshot__4_-removebg-preview (2).png using Guid(0afcdb3c1e792444a969099a74ba1ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426bb9bd5798dd30b5b8953f533660fe') in 0.039596 seconds
+  Time since last request: 6.015703 seconds.
+  path: Assets/Unity Project - This is Blast/Prefab/Yellow Block Shooter Variant.prefab
+  artifactKey: Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Project - This is Blast/Prefab/Yellow Block Shooter Variant.prefab using Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd913c321664658025394c9375bda00a') in 0.050827 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 39
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/1000x1000-screenshot__19_-removebg-preview.png
-  artifactKey: Guid(421a5bbc0d310314b9dbceaad01cc871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/1000x1000-screenshot__19_-removebg-preview.png using Guid(421a5bbc0d310314b9dbceaad01cc871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f742499757521dcd394f80f3f4ff740') in 0.073060 seconds
+  Time since last request: 4.388333 seconds.
+  path: Assets/Unity Project - This is Blast/Prefab/Yellow Block Shooter Variant.prefab
+  artifactKey: Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Project - This is Blast/Prefab/Yellow Block Shooter Variant.prefab using Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09f96cdc0584397de171be2bc8256b8') in 0.009585 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 39
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites
-  artifactKey: Guid(f5e9dd559100373429c3426f18030603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites using Guid(f5e9dd559100373429c3426f18030603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ee277835c887cdaae687b5fc6d69e8') in 0.001069 seconds
+  Time since last request: 1916.642869 seconds.
+  path: Assets/Prefab/Red Cube.prefab
+  artifactKey: Guid(cfd717be98f7cf34cadc8bfc5206c47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Red Cube.prefab using Guid(cfd717be98f7cf34cadc8bfc5206c47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3985cfb9b1470858ebb6e1e1e9709e33') in 0.055786 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/1 #64892.png
-  artifactKey: Guid(d8814afc88e4a46428b4b59c7b1842a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/1 #64892.png using Guid(d8814afc88e4a46428b4b59c7b1842a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51679c7e1667216f44edf329c8943ce') in 0.047407 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0003_frame3-12.png
-  artifactKey: Guid(62e627c2841d3f24990a6e83b96fd652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0003_frame3-12.png using Guid(62e627c2841d3f24990a6e83b96fd652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c721c7104d56b2c94a1bc1dbf3c9a3a1') in 0.026670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/5 1.png
-  artifactKey: Guid(eda695666ba4a964aa4ccc3e124bab42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/5 1.png using Guid(eda695666ba4a964aa4ccc3e124bab42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8290782664611f3a9562fd5ce402934') in 0.044979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0001_frame3-10.png
-  artifactKey: Guid(f6f0a554245760b43b127d576ffd70b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0001_frame3-10.png using Guid(f6f0a554245760b43b127d576ffd70b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4dbb017b3a409649fc3fa2c3f45a094') in 0.026201 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/+1 #64855.png
-  artifactKey: Guid(82c342ca2c98afc459130928b26009b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/+1 #64855.png using Guid(82c342ca2c98afc459130928b26009b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8daa7447055f858f0afb8a224745d9e0') in 0.042282 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/8 #64869.png
-  artifactKey: Guid(11ff0eb37c425604da767f364ef5dad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/8 #64869.png using Guid(11ff0eb37c425604da767f364ef5dad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da309af7a94b9f724270c61e5d0083a') in 0.039956 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/1000x1000-screenshot-removebg-preview (3).png
-  artifactKey: Guid(31f5aee27c9b6a54490a55c3a2df9d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/1000x1000-screenshot-removebg-preview (3).png using Guid(31f5aee27c9b6a54490a55c3a2df9d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b81137649eb977bffa3b03aa8b352b2') in 0.034064 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0004_frame3-11.png
-  artifactKey: Guid(73d9aacad6697544ca31777828f0ac71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0004_frame3-11.png using Guid(73d9aacad6697544ca31777828f0ac71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7d9b7fb3b1fc2da23bb068b70a5b14') in 0.028851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Unity Project - This is Blast/Assets
-  artifactKey: Guid(8c66f679cd9248d4aa4badf709940420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets using Guid(8c66f679cd9248d4aa4badf709940420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b884322c0a40e89808b8ddb8f2f79a78') in 0.000536 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/Double Tower.png
-  artifactKey: Guid(4762e072e3b70b34ba1380e5473b2309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/Double Tower.png using Guid(4762e072e3b70b34ba1380e5473b2309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ac8654b784b679ff217a42a769cb4b') in 0.095990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0001_frame3-14.png
-  artifactKey: Guid(292da2808d0da7d4584f74997e38bdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0001_frame3-14.png using Guid(292da2808d0da7d4584f74997e38bdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522cd99f8b09582f3f6cb0500623f4c3') in 0.025482 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/CloseBtn.png
-  artifactKey: Guid(d7d364b442118c44297b8ea7a39883b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/CloseBtn.png using Guid(d7d364b442118c44297b8ea7a39883b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93870c0e66fddbb1f6ca1044bbaf337c') in 0.018992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/1 1 1.png
-  artifactKey: Guid(712e2e066a22fb84fa96208331a00b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/1 1 1.png using Guid(712e2e066a22fb84fa96208331a00b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a4fd2789581a7dd87a571d0dddc70e') in 0.024245 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/4444444.png
-  artifactKey: Guid(3a8a49ee1e3fbf64d9c02c839490bd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/4444444.png using Guid(3a8a49ee1e3fbf64d9c02c839490bd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e51b6422a9ec67730e6b0bf402cbea7') in 0.029006 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/1000x1000-screenshot__18_-removebg-preview (1).png
-  artifactKey: Guid(d6f33338e72f28745bf7351b6b2ad5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/1000x1000-screenshot__18_-removebg-preview (1).png using Guid(d6f33338e72f28745bf7351b6b2ad5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66b6a1dd6d283856726105ef78766a6') in 0.036869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/Clock.png
-  artifactKey: Guid(3475a054d3b188c4bbf30070a34ebce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/Clock.png using Guid(3475a054d3b188c4bbf30070a34ebce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7709aa122ee0a45deb7eea2e0442dc8a') in 0.027396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/7 1.png
-  artifactKey: Guid(cb698ae33ae9eda46942c7f725edc4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/7 1.png using Guid(cb698ae33ae9eda46942c7f725edc4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0254164d73a0a2efa2f587f22bc56b98') in 0.031942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/1000x1000-screenshot__1_-removebg-preview (2).png
-  artifactKey: Guid(47b027bd517d815409c264f5073f0540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/1000x1000-screenshot__1_-removebg-preview (2).png using Guid(47b027bd517d815409c264f5073f0540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40686c13d70cdc4336bd1269ad47a4ba') in 0.031881 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 32
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/CanonBg.png
-  artifactKey: Guid(311bfd75b2dc0684f8f9f36fea470e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/CanonBg.png using Guid(311bfd75b2dc0684f8f9f36fea470e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd182492fc4e3c635089f0bf07fa5490') in 0.019082 seconds
+  path: Assets/Prefab/Yellow Cube.prefab
+  artifactKey: Guid(7c92175540a20364c9df909278dd8ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Yellow Cube.prefab using Guid(7c92175540a20364c9df909278dd8ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6c15149d5e1a914f073b16c7cd1de2') in 0.013742 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/1 1.png
-  artifactKey: Guid(b56be0f71fce1714f97e8b6882207f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/1 1.png using Guid(b56be0f71fce1714f97e8b6882207f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df2287fcc223eadbac82d527389c439') in 0.023810 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 12.970395 seconds.
-  path: Assets/Unity Project - This is Blast/ProjectSettings/ClusterInputManager.asset
-  artifactKey: Guid(d12efa7ef32faa942ab8da7ab032e10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/ProjectSettings/ClusterInputManager.asset using Guid(d12efa7ef32faa942ab8da7ab032e10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ab9d8f6ced2ae735f97ddff2f9ba00') in 0.000879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.025979 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Models/Cube1.obj
-  artifactKey: Guid(167cdf7ea8974a34cb0c013f1d51c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Models/Cube1.obj using Guid(167cdf7ea8974a34cb0c013f1d51c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d372a9b9f04cac4b09b09f7b1b26a2d') in 0.436950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Models/Plane1.obj
-  artifactKey: Guid(13a014f0603f1974b943c6bdbb691286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Models/Plane1.obj using Guid(13a014f0603f1974b943c6bdbb691286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f49bf56b7b421dff2505a78b8dd109c') in 0.066165 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Models/Feet.obj
-  artifactKey: Guid(3d1c2d2697db0d94c95d07dad49954a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Models/Feet.obj using Guid(3d1c2d2697db0d94c95d07dad49954a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ac11c74aaf3e6826efed994fc9f1cd') in 0.057231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Models/Gate.fbx
-  artifactKey: Guid(25e4d8b41fe347f43ae1cc3995800a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Models/Gate.fbx using Guid(25e4d8b41fe347f43ae1cc3995800a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03c899ddf1d75c7d4b1eae28332cebd') in 0.059996 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Models/Tower.obj
-  artifactKey: Guid(50f0040f75aa22d4dab1e62328bc74b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Models/Tower.obj using Guid(50f0040f75aa22d4dab1e62328bc74b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f76ea55eec39c5b6ce1026827ad0e0b') in 0.038481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Models/Cube2.obj
-  artifactKey: Guid(d09c88d24b3ceae4f8cecccbf4a657a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Models/Cube2.obj using Guid(d09c88d24b3ceae4f8cecccbf4a657a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291359da7ea1c95efe61c3563f9b242b') in 0.023998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 6219.950376 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0008_frame3-7.png
-  artifactKey: Guid(6f2c98448e81f80499c44b47c7b8bba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0008_frame3-7.png using Guid(6f2c98448e81f80499c44b47c7b8bba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6440c55e46f16e6b21ffab9fb36272') in 0.086281 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0011_frame3-4.png
-  artifactKey: Guid(8583037f6809ef140ac099744e373689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0011_frame3-4.png using Guid(8583037f6809ef140ac099744e373689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b298db1fd10c4b2499b63259cd1a638b') in 0.019605 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.013616 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0013_frame3-2.png
-  artifactKey: Guid(67583cf21aabaee448f5358c08224e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/frame3-1_0013_frame3-2.png using Guid(67583cf21aabaee448f5358c08224e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92442a3a7eece69c523b146a17da4ca4') in 0.016631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.043658 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/freeze_screen.png
-  artifactKey: Guid(9b929e342fc60d646aae21d09306bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/freeze_screen.png using Guid(9b929e342fc60d646aae21d09306bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd17e34ccf2955764e28b97c43e222c') in 0.017989 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.194520 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/freezewatch_circle.png
-  artifactKey: Guid(fc8efd77950bf7240a1f341ba3e33d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/freezewatch_circle.png using Guid(fc8efd77950bf7240a1f341ba3e33d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e92f3d73838cd33e4f2ddb720b88f6') in 0.025323 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.240471 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/GradeIcon_Star_l_Yellow.png
-  artifactKey: Guid(0a514f57873fd7b4a8c4c67dc5d46110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/GradeIcon_Star_l_Yellow.png using Guid(0a514f57873fd7b4a8c4c67dc5d46110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf985d11d894de75f4433dcc519b353') in 0.020542 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.016618 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/GreenClaimButton.png
-  artifactKey: Guid(716fd082664b30e4cb23cfd5ea2ffdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/GreenClaimButton.png using Guid(716fd082664b30e4cb23cfd5ea2ffdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c6ea31397200f11337df43bf525100') in 0.017492 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.022086 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/hand4.png
-  artifactKey: Guid(d8ff364c8a0244b44bd734c05d3db2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/hand4.png using Guid(d8ff364c8a0244b44bd734c05d3db2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7399bb90bb578751803853faed781159') in 0.018635 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.058945 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/Icon_Close02.png
-  artifactKey: Guid(c018290690191be4ea632053ab229f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/Icon_Close02.png using Guid(c018290690191be4ea632053ab229f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7f6fbcdcc230444bca7359df0c13cf') in 0.015441 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.073197 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/Icon_Lock03.png
-  artifactKey: Guid(85a708cac8c0b4e458a1321294c50bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/Icon_Lock03.png using Guid(85a708cac8c0b4e458a1321294c50bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c1b202448937896a8112ac372ce8e3') in 0.015334 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.262481 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/IMG_1637 9.png
-  artifactKey: Guid(6bcd78d62ef3e64409844b828663c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/IMG_1637 9.png using Guid(6bcd78d62ef3e64409844b828663c293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb8ef16446e816040879833c1e0ee77') in 0.020845 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.010226 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/IMG_1637 10грн.png
-  artifactKey: Guid(3fb45eb42c881ae49a4ad606a4766b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/IMG_1637 10грн.png using Guid(3fb45eb42c881ae49a4ad606a4766b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89a48f9ee610c03b8acaf656043cd0a') in 0.019094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.012514 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/IMG_1637 18.png
-  artifactKey: Guid(6d78b4dcc09c3194a9d550773dcb5b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/IMG_1637 18.png using Guid(6d78b4dcc09c3194a9d550773dcb5b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d134d979067f2b501406bb81b3e9a3') in 0.016717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.024133 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/InputFieldBackground.png
-  artifactKey: Guid(3d3a0ff213592b14ea54dbd584c8afd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/InputFieldBackground.png using Guid(3d3a0ff213592b14ea54dbd584c8afd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f39a657facb89a60c2bcd373c8673ea') in 0.017533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.077844 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/ItemIcon_Star_Gold.png
-  artifactKey: Guid(36c42c5d193fb6d4785b8638a0509131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/ItemIcon_Star_Gold.png using Guid(36c42c5d193fb6d4785b8638a0509131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef5ce435a2f151d9dd5707b33c8b32d') in 0.016517 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.017489 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/KUBOK200.png
-  artifactKey: Guid(6871759362ae62647ae5eaea1dacd8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/KUBOK200.png using Guid(6871759362ae62647ae5eaea1dacd8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c336ec9b394521e108d14d66c2cf8e60') in 0.019844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.032883 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/Label_Badge01_Yellow.png
-  artifactKey: Guid(95bdd8fb61985fe4c9210ebff7a3dddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/Label_Badge01_Yellow.png using Guid(95bdd8fb61985fe4c9210ebff7a3dddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2f1e7b7af59ad7cae83e60d63876a0') in 0.018734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.026771 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/Lock.png
-  artifactKey: Guid(694888e6b9cfe3f4cbc417db2d22357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/Lock.png using Guid(694888e6b9cfe3f4cbc417db2d22357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65078e08df2a9ebf5b6e6b74b2439f08') in 0.019971 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.633983 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/RoundBtn.png
-  artifactKey: Guid(2d2076f0241f9fc40a80289ab08a0717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/RoundBtn.png using Guid(2d2076f0241f9fc40a80289ab08a0717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce502a7febef0c001b9b325faa3c84e') in 0.017133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.380915 seconds.
-  path: Assets/Unity Project - This is Blast/Assets/Sprites/Shovel256Outline.png
-  artifactKey: Guid(512f8d88ff8f646428422628f6c02c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Assets/Sprites/Shovel256Outline.png using Guid(512f8d88ff8f646428422628f6c02c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10f5b49f231845638319a11726606f4') in 0.026828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 32
