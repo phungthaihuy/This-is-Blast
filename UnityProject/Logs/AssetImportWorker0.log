@@ -15,7 +15,7 @@ E:/Unity/ThisIsBlast/This-is-Blast/UnityProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56664
+51136
 Successfully changed project path to: E:/Unity/ThisIsBlast/This-is-Blast/UnityProject
 E:/Unity/ThisIsBlast/This-is-Blast/UnityProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/Unity/ThisIsBlast/This-is-Blast/UnityProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13792] Host "[IP] 192.168.1.50 [Port] 0 [Flags] 2 [Guid] 304620603 [EditorId] 304620603 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2602KDB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5328] Host "[IP] 192.168.1.53 [Port] 0 [Flags] 2 [Guid] 433152754 [EditorId] 433152754 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2602KDB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13792] Host "[IP] 192.168.1.50 [Port] 0 [Flags] 2 [Guid] 304620603 [EditorId] 304620603 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2602KDB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5328] Host "[IP] 192.168.1.53 [Port] 0 [Flags] 2 [Guid] 433152754 [EditorId] 433152754 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2602KDB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 7.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path E:/UnityInstall/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'E:/UnityInstall/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityInstall/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/UnityInstall/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityInstall/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/UnityInstall/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004998 seconds.
-- Loaded All Assemblies, in  0.526 seconds
+Registered in 0.005299 seconds.
+- Loaded All Assemblies, in  0.456 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 300 ms
+Android Extension - Scanning For ADB Devices 319 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.269 seconds
-Domain Reload Profiling: 2794ms
-	BeginReloadAssembly (148ms)
+- Finished resetting the current domain, in  0.750 seconds
+Domain Reload Profiling: 1206ms
+	BeginReloadAssembly (126ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (86ms)
-	LoadAllAssembliesAndSetupDomain (225ms)
-		LoadAssemblies (148ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (124ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (222ms)
-			TypeCache.Refresh (220ms)
-				TypeCache.ScanAssembly (202ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (194ms)
+				TypeCache.ScanAssembly (177ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (2269ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (750ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (671ms)
+		SetupLoadedEditorAssemblies (670ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (435ms)
+			InitializePlatformSupportModulesInManaged (451ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (163ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,52 +118,52 @@ Domain Reload Profiling: 2794ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.764 seconds
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.826 seconds
+Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.691 seconds
-Domain Reload Profiling: 1455ms
-	BeginReloadAssembly (195ms)
+- Finished resetting the current domain, in  0.846 seconds
+Domain Reload Profiling: 1672ms
+	BeginReloadAssembly (190ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (441ms)
-		LoadAssemblies (368ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (513ms)
+		LoadAssemblies (384ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (191ms)
-			TypeCache.Refresh (167ms)
-				TypeCache.ScanAssembly (151ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (692ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (190ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (846ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (530ms)
+		SetupLoadedEditorAssemblies (641ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (390ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (474ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 43 unused Assets / (1.5 MB). Loaded Objects now: 3851.
-Memory consumption went from 161.3 MB to 159.7 MB.
-Total: 3.283800 ms (FindLiveObjects: 0.267400 ms CreateObjectMapping: 0.227400 ms MarkObjects: 2.037600 ms  DeleteObjects: 0.750700 ms)
+Memory consumption went from 161.2 MB to 159.7 MB.
+Total: 4.327100 ms (FindLiveObjects: 0.430200 ms CreateObjectMapping: 0.513700 ms MarkObjects: 2.411600 ms  DeleteObjects: 0.970500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,145 +180,286 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 12218.515525 seconds.
-  path: Assets/Unity Project - This is Blast/Prefab/Yellow Block Shooter Variant.prefab
-  artifactKey: Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Prefab/Yellow Block Shooter Variant.prefab using Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644ee6e43ee050bfed09ed332585a49f') in 0.116573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 48.033614 seconds.
-  path: Assets/Unity Project - This is Blast/Prefab/Base Block Shooter.prefab
-  artifactKey: Guid(3e6e7aa77c250a34f813c3caba570940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Prefab/Base Block Shooter.prefab using Guid(3e6e7aa77c250a34f813c3caba570940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b13e8f3f9808fedac6741d194de3747') in 0.066290 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 37.227179 seconds.
-  path: Assets/Unity Project - This is Blast/Prefab/Base Block Shooter.prefab
-  artifactKey: Guid(3e6e7aa77c250a34f813c3caba570940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Prefab/Base Block Shooter.prefab using Guid(3e6e7aa77c250a34f813c3caba570940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98871ef361e09da315d3abeb045593e4') in 0.021361 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 6.007762 seconds.
-  path: Assets/Unity Project - This is Blast/Prefab/Base Block Shooter.prefab
-  artifactKey: Guid(3e6e7aa77c250a34f813c3caba570940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Prefab/Base Block Shooter.prefab using Guid(3e6e7aa77c250a34f813c3caba570940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d33d70638b1a0f101ea28939b14aa5') in 0.051223 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 4.387944 seconds.
-  path: Assets/Unity Project - This is Blast/Prefab/Base Block Shooter.prefab
-  artifactKey: Guid(3e6e7aa77c250a34f813c3caba570940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Prefab/Base Block Shooter.prefab using Guid(3e6e7aa77c250a34f813c3caba570940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5512d7055ae07cb781622d8659a4b490') in 0.008475 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 53.402118 seconds.
-  path: Assets/Unity Project - This is Blast/Prefab/Red Block Shooter Variant.prefab
-  artifactKey: Guid(4962e888740d1ab42b1916b7966dcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Prefab/Red Block Shooter Variant.prefab using Guid(4962e888740d1ab42b1916b7966dcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6de4c8d2d30debad5ddc6e2778d1bb7') in 0.015319 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 177.807983 seconds.
-  path: Assets/Unity Project - This is Blast/Prefab/Red Block Shooter Variant.prefab
-  artifactKey: Guid(4962e888740d1ab42b1916b7966dcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity Project - This is Blast/Prefab/Red Block Shooter Variant.prefab using Guid(4962e888740d1ab42b1916b7966dcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3306ebc2c0df2f9a7c66293a6893e467') in 0.036501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 16.555797 seconds.
-  path: Assets/Prefab/Bullet.prefab
-  artifactKey: Guid(5cb3284e6b0b1b74896539b4944f1cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Bullet.prefab using Guid(5cb3284e6b0b1b74896539b4944f1cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80537aa96cb944ff7c2b7c7a0f8a6ac1') in 0.033375 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 138.408277 seconds.
-  path: Assets/Prefab/Cube.prefab
-  artifactKey: Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Cube.prefab using Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c516c04b3cd29277ee1b21ae2c7e7b') in 0.016901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 1325.699660 seconds.
-  path: Assets/Prefab/Yellow Cube.prefab
-  artifactKey: Guid(7c92175540a20364c9df909278dd8ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Yellow Cube.prefab using Guid(7c92175540a20364c9df909278dd8ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95aa988578c94f88bd513baadca85255') in 0.021218 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 6.711944 seconds.
-  path: Assets/Prefab/Yellow Block Shooter.prefab
-  artifactKey: Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Yellow Block Shooter.prefab using Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec735e2c9da5c57dcea7f321f1793335') in 0.008947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 5.819131 seconds.
+  Time since last request: 19814.472220 seconds.
   path: Assets/Prefab/Red Block Shooter.prefab
   artifactKey: Guid(4962e888740d1ab42b1916b7966dcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Red Block Shooter.prefab using Guid(4962e888740d1ab42b1916b7966dcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b324e9dbf36cb5ca3787dd761e5c72b9') in 0.013806 seconds
+Start importing Assets/Prefab/Red Block Shooter.prefab using Guid(4962e888740d1ab42b1916b7966dcab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775f48c03359f19a7dff39cba1861a2c') in 0.090794 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
+Number of asset objects unloaded after import = 38
 ========================================================================
 Received Import Request.
-  Time since last request: 112.347917 seconds.
-  path: Assets/Prefab/Yellow Cube.prefab
-  artifactKey: Guid(7c92175540a20364c9df909278dd8ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Yellow Cube.prefab using Guid(7c92175540a20364c9df909278dd8ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfca4c769964627960d82bb9ef7da318') in 0.026097 seconds
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefab/Yellow Block Shooter.prefab
+  artifactKey: Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Yellow Block Shooter.prefab using Guid(d0ac827f356995f47b36c349cd73b31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a38f979e3ac4caf4c24f890edb6790') in 0.028202 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
+Number of asset objects unloaded after import = 38
 ========================================================================
 Received Import Request.
-  Time since last request: 12.293019 seconds.
-  path: Assets/Prefab/Red Cube.prefab
-  artifactKey: Guid(cfd717be98f7cf34cadc8bfc5206c47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Red Cube.prefab using Guid(cfd717be98f7cf34cadc8bfc5206c47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e164cc8f94ed3c684fb9ba2f5d8309') in 0.017949 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 17.118797 seconds.
-  path: Assets/Prefab/Red Cube.prefab
-  artifactKey: Guid(cfd717be98f7cf34cadc8bfc5206c47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Red Cube.prefab using Guid(cfd717be98f7cf34cadc8bfc5206c47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7c76c6e4d579d13632f99adeb01d74') in 0.018412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 17.312141 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9326e97e2461385864aa44f9e28ada') in 0.000873 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 32.921184 seconds.
+  Time since last request: 71.763182 seconds.
   path: Assets/Prefab/Cube.prefab
   artifactKey: Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Cube.prefab using Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810b3d446473aabf3806bafe14781215') in 0.062153 seconds
+Start importing Assets/Prefab/Cube.prefab using Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a578c950c2652b6374343fb542827511') in 0.037306 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 19
 ========================================================================
 Received Import Request.
-  Time since last request: 506.068211 seconds.
-  path: Assets/Script
-  artifactKey: Guid(396c92d3f6448d444bf8f39480e2e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script using Guid(396c92d3f6448d444bf8f39480e2e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26703ca8bd5271c84c851d6404904980') in 0.000764 seconds
+  Time since last request: 3.957174 seconds.
+  path: Assets/Prefab/Cube.prefab
+  artifactKey: Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Cube.prefab using Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc4c19fd51589d1c5a25b46249fc819') in 0.052892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 315.578183 seconds.
+  path: Assets/Prefab/Cube.prefab
+  artifactKey: Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Cube.prefab using Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393e8b47704dd6a35c28bf1ddd072734') in 0.071070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.334041 seconds.
+  path: Assets/Prefab/Cube.prefab
+  artifactKey: Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Cube.prefab using Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5909bdb97ea88879cb8f26d3cc0bce5b') in 0.040873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Yellow Cube.prefab
+  artifactKey: Guid(7c92175540a20364c9df909278dd8ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Yellow Cube.prefab using Guid(7c92175540a20364c9df909278dd8ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a73e6d4d1061d2b78f3391be33dea28') in 0.007024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.541064 seconds.
+  path: Assets/Prefab/Cube.prefab
+  artifactKey: Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Cube.prefab using Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8990bcd73155c7ec2dd70a970acf7e2') in 0.055324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.589712 seconds.
+  path: Assets/Prefab/Cube.prefab
+  artifactKey: Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Cube.prefab using Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0319459ca867fca41eebc668d7de365') in 0.007401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefab/Yellow Cube.prefab
+  artifactKey: Guid(7c92175540a20364c9df909278dd8ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Yellow Cube.prefab using Guid(7c92175540a20364c9df909278dd8ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8506745c5bba19120cbce1471cf1b9') in 0.006641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 1.480386 seconds.
+  path: Assets/Prefab/Cube.prefab
+  artifactKey: Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Cube.prefab using Guid(5b9c2c8f81a394f47bfca22b47de6cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9c4ecbde901115319cf9fe181a4ebd') in 1.137597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.451 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.085 seconds
+Domain Reload Profiling: 1536ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (223ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1086ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (600ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (430ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3326 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.5 MB). Loaded Objects now: 3862.
+Memory consumption went from 147.5 MB to 145.9 MB.
+Total: 5.027600 ms (FindLiveObjects: 0.306600 ms CreateObjectMapping: 0.289900 ms MarkObjects: 3.569400 ms  DeleteObjects: 0.860600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.476 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.018 seconds
+Domain Reload Profiling: 1494ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1018ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (556ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (404ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.5 MB). Loaded Objects now: 3866.
+Memory consumption went from 149.6 MB to 148.1 MB.
+Total: 4.938000 ms (FindLiveObjects: 0.403900 ms CreateObjectMapping: 0.373100 ms MarkObjects: 3.183300 ms  DeleteObjects: 0.976300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 346.491639 seconds.
+  path: Assets/Script/BlockShooter.cs
+  artifactKey: Guid(d246b85cb299d0a46a10aa0f90b52eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/BlockShooter.cs using Guid(d246b85cb299d0a46a10aa0f90b52eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d2f32a441962c4e22eeba7748b6a03') in 0.010805 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.480 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.033 seconds
+Domain Reload Profiling: 1512ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1033ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (552ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (393ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.5 MB). Loaded Objects now: 3871.
+Memory consumption went from 151.3 MB to 149.8 MB.
+Total: 3.905800 ms (FindLiveObjects: 0.365900 ms CreateObjectMapping: 0.286400 ms MarkObjects: 2.334800 ms  DeleteObjects: 0.917600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
