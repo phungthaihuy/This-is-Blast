@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|e:\\unity\\thisisblast\\this-is-blast\\unityproject\\assets\\unity project - this is blast\\assets\\packages\\epic toon fx\\demo\\scripts\\etfxprojectilescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|solutionrelative:assets\\unity project - this is blast\\assets\\packages\\epic toon fx\\demo\\scripts\\etfxprojectilescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|e:\\unity\\thisisblast\\this-is-blast\\unityproject\\assets\\script\\blockshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\blockshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|e:\\unity\\thisisblast\\this-is-blast\\unityproject\\assets\\script\\bulletspool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bulletspool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\assets\\script\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ETFXProjectileScript.cs",
-              "DocumentMoniker": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Unity Project - This is Blast\\Assets\\Packages\\Epic Toon FX\\Demo\\Scripts\\ETFXProjectileScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Unity Project - This is Blast\\Assets\\Packages\\Epic Toon FX\\Demo\\Scripts\\ETFXProjectileScript.cs",
-              "ToolTip": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Unity Project - This is Blast\\Assets\\Packages\\Epic Toon FX\\Demo\\Scripts\\ETFXProjectileScript.cs",
-              "RelativeToolTip": "Assets\\Unity Project - This is Blast\\Assets\\Packages\\Epic Toon FX\\Demo\\Scripts\\ETFXProjectileScript.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAqwCwAAABSAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BulletsPool.cs",
+              "DocumentMoniker": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\BulletsPool.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\BulletsPool.cs",
+              "ToolTip": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\BulletsPool.cs",
+              "RelativeToolTip": "Assets\\Script\\BulletsPool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T14:27:08.666Z",
+              "WhenOpened": "2025-11-01T13:00:53.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlockShooter.cs",
+              "DocumentMoniker": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\BlockShooter.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\BlockShooter.cs",
+              "ToolTip": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\BlockShooter.cs",
+              "RelativeToolTip": "Assets\\Script\\BlockShooter.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowCIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:46:55.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Bullet.cs",
+              "ToolTip": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Script\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:41:42.112Z",
               "EditorCaption": ""
             }
           ]

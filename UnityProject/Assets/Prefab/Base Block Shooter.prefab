@@ -124,6 +124,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3615154631186744118}
   - component: {fileID: 6727310166197017116}
+  - component: {fileID: 792396560406150471}
+  - component: {fileID: 2822940785947705880}
   m_Layer: 0
   m_Name: Base Block Shooter
   m_TagString: Untagged
@@ -169,6 +171,34 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.76227796, z: 1}
   m_Center: {x: 0, y: -0.118861005, z: 0}
+--- !u!114 &792396560406150471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5778627109482398664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d246b85cb299d0a46a10aa0f90b52eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 5876340788234340832}
+  bulletPool: {fileID: 2822940785947705880}
+--- !u!114 &2822940785947705880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5778627109482398664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8238035bcd6e164eb927c46153a54a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 8653818198346193116, guid: 5cb3284e6b0b1b74896539b4944f1cae, type: 3}
+  poolSize: 10
 --- !u!1 &7214425671360727345
 GameObject:
   m_ObjectHideFlags: 0
