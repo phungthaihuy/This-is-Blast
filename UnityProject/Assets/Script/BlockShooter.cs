@@ -10,7 +10,7 @@ public class BlockShooter : MonoBehaviour
 
     private const string CUBE = "Cube";
 
-    private GameObject[] cubes;
+    public List<GameObject> cubes;
     private GameObject nearestCube = null;
     private Transform target;
     private float fireCountDown = 0f;
@@ -18,6 +18,7 @@ public class BlockShooter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        cubes = new List<GameObject>(GameObject.FindGameObjectsWithTag("Cube"));
         FireRate();
     }
 
@@ -37,7 +38,7 @@ public class BlockShooter : MonoBehaviour
     }
     void Shoot()
     {
-        cubes = GameObject.FindGameObjectsWithTag(CUBE);
+        
         float shortedDistance = Mathf.Infinity;
         foreach (GameObject cube in cubes)
         {
@@ -51,8 +52,17 @@ public class BlockShooter : MonoBehaviour
         if (nearestCube != null)
         {
             target = nearestCube.transform;
+
+            GameObject bulletGO = bulletPool.GetBullet();
+            bulletGO.transform.position = firePoint.position;
+            Bullet bullet = bulletGO.GetComponent<Bullet>();
+            if (bullet != null)
+                bullet.Seek(target);
         }
-        GameObject bullet = bulletPool.GetBullet();
-        bullet.transform.position = firePoint.position;
+        
+    }
+    public void RemoveCube(GameObject cube)
+    {
+        cubes.Remove(cube);
     }
 }
