@@ -17,6 +17,7 @@ public class BulletsPool : MonoBehaviour
             bullet.SetActive(false);
             pool.Enqueue(bullet);
         }
+        Debug.Log(pool.Count);
     }
 
     public GameObject GetBullet()
@@ -29,8 +30,8 @@ public class BulletsPool : MonoBehaviour
         }
         else
         {
-            GameObject bullet = Instantiate(bulletPrefab);
-            return bullet;
+            Debug.Log("out of bullets in pool");
+            return null;
         }
     }
 

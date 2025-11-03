@@ -32,14 +32,13 @@ public class Bullet : MonoBehaviour
             if (shooter != null)
                 shooter.RemoveCube(target.gameObject);
         }
-       
-
+        
         Destroy(target.gameObject);
+        target = null;
         FindObjectOfType<BulletsPool>().ReturnBullet(gameObject);
     }
     private void OnTriggerEnter(Collider other)
     {
-        
         Destroy(target.gameObject);
     }
 }

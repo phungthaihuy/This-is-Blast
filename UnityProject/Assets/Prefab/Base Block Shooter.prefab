@@ -185,6 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 5876340788234340832}
   bulletPool: {fileID: 2822940785947705880}
+  cubes: []
 --- !u!114 &2822940785947705880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,7 +199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 8653818198346193116, guid: 5cb3284e6b0b1b74896539b4944f1cae, type: 3}
-  poolSize: 10
+  poolSize: 20
 --- !u!1 &7214425671360727345
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,13 +19,12 @@ public class BlockShooter : MonoBehaviour
     void Start()
     {
         cubes = new List<GameObject>(GameObject.FindGameObjectsWithTag("Cube"));
-        FireRate();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        FireRate();
     }
     private void FireRate()
     {
@@ -38,10 +37,11 @@ public class BlockShooter : MonoBehaviour
     }
     void Shoot()
     {
-        
         float shortedDistance = Mathf.Infinity;
         foreach (GameObject cube in cubes)
         {
+            bool getIsTargetCube = cube.transform.GetChild(0).GetComponent<Cube>().GetIsTarget();
+            if (getIsTargetCube == true) continue;
             float distanceCube = Vector3.Distance(transform.position, cube.transform.position);
             if (distanceCube < shortedDistance)
             {
@@ -64,5 +64,10 @@ public class BlockShooter : MonoBehaviour
     public void RemoveCube(GameObject cube)
     {
         cubes.Remove(cube);
+    }
+
+    public Transform GetTarget()
+    {
+        return target;
     }
 }
