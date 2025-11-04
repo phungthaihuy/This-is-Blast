@@ -37,8 +37,4 @@ public class Bullet : MonoBehaviour
         target = null;
         FindObjectOfType<BulletsPool>().ReturnBullet(gameObject);
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        Destroy(target.gameObject);
-    }
 }

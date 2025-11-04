@@ -20,10 +20,10 @@ public class Cube : MonoBehaviour
     void Update()
     {
         rb.AddForce(new Vector3(0f, 0f, -1f), ForceMode.Force);
-        foreach (BlockShooter shooter in shooters)
-        {
-            if (shooter.GetTarget() == transform.parent) isTarget = true;
-        }
+        //foreach (BlockShooter shooter in shooters)
+        //{
+        //    if (shooter.GetTarget().gameObject == transform.parent.gameObject) isTarget = true;
+        //}
     }
 
     public bool GetIsTarget()

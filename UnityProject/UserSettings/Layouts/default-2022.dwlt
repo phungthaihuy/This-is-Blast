@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 124
+  controlID: 51
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 56
+  controlID: 52
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 57
+  controlID: 53
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -270,14 +270,14 @@ MonoBehaviour:
     y: 705
     width: 1522
     height: 234
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -411,21 +411,21 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1281}
-      m_SelectedIDs: d6faffff
-      m_LastClickedID: -1322
-      m_ExpandedIDs: 6ee9ffff3af5ffffeaf5ffffdaf6ffff28f8ffffd8faffff2afbffff7e5e0000145f0000685f0000825f0000965f00009e5f0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 98f5ffff
+      m_LastClickedID: -2664
+      m_ExpandedIDs: 3c96ffff4a96ffff6696ffffecf4ffff5af5ffff98faffffa8faffff2afbffff2e5e00007e5e0000145f0000685f0000825f0000965f00009e5f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Yellow Block Shooter
-        m_OriginalName: Yellow Block Shooter
+        m_Name: Bullet(Clone)
+        m_OriginalName: Bullet(Clone)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -2758
+        m_UserData: -25360
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -846,9 +846,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 1.8975701, y: 0.6334299, z: 11.511074}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 3.1495216, y: 0.5522945, z: 10.668317}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -894,13 +894,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.33555633, y: 0.35174584, z: -0.13683748, w: 0.86314785}
+    m_Target: {x: 0.2899163, y: 0.032987192, z: -0.01008345, w: 0.95646995}
     speed: 2
-    m_Value: {x: 0.3355443, y: 0.35173324, z: -0.13683258, w: 0.86311686}
+    m_Value: {x: 0.28990528, y: 0.032985937, z: -0.010083066, w: 0.9564336}
   m_Size:
-    m_Target: 9.492102
+    m_Target: 8.63719
     speed: 2
-    m_Value: 9.939373
+    m_Value: 8.265253
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1199,8 +1199,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: e65f0000
+    m_LastClickedInstanceID: 24550
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000a46100006a6300006e6300005081000022810000b2ee0000b6cc000032720000a07200005e720000a4720000227500008a910000a69f0000929b0000dc6e0000a0ef0000ea1702008a790000006e00000000000062630000d00e0300
     m_RenameOverlay:
@@ -1300,7 +1300,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1896
+  m_LastSelectedObjectID: 24550
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52

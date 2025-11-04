@@ -631,6 +631,10 @@ PrefabInstance:
       propertyPath: bulletPool
       value: 
       objectReference: {fileID: 1992803378}
+    - target: {fileID: 2773630165069406817, guid: d0ac827f356995f47b36c349cd73b31c, type: 3}
+      propertyPath: poolSize
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3709677169121403727, guid: d0ac827f356995f47b36c349cd73b31c, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.6666665
@@ -5925,6 +5929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Block Shooter
       objectReference: {fileID: 0}
+    - target: {fileID: 549479646361874410, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6732531900674412901, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
       propertyPath: bulletPool
       value: 
@@ -5980,6 +5988,10 @@ PrefabInstance:
     - target: {fileID: 7330296229427834644, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123635966351044154, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
+      propertyPath: poolSize
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

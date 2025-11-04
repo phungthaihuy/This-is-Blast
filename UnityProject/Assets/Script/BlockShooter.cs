@@ -13,7 +13,9 @@ public class BlockShooter : MonoBehaviour
     public List<GameObject> cubes;
     private GameObject nearestCube = null;
     private Transform target;
+    private Transform previousTarget;
     private float fireCountDown = 0f;
+    bool getIsTargetCube;
 
     // Start is called before the first frame update
     void Start()
@@ -24,23 +26,21 @@ public class BlockShooter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         FireRate();
     }
-    private void FireRate()
+    void UpdateTarget()
     {
-        if (fireCountDown <= 0f)
+        if (cubes.Count == 0)
         {
-            fireCountDown = .1f;
-            Shoot();
+            target = null;
+            previousTarget = null;
+            nearestCube = null;
         }
-        fireCountDown -= Time.deltaTime;
-    }
-    void Shoot()
-    {
         float shortedDistance = Mathf.Infinity;
         foreach (GameObject cube in cubes)
         {
-            bool getIsTargetCube = cube.transform.GetChild(0).GetComponent<Cube>().GetIsTarget();
+            getIsTargetCube = cube.transform.GetChild(0).GetComponent<Cube>().GetIsTarget();
             if (getIsTargetCube == true) continue;
             float distanceCube = Vector3.Distance(transform.position, cube.transform.position);
             if (distanceCube < shortedDistance)
@@ -52,14 +52,29 @@ public class BlockShooter : MonoBehaviour
         if (nearestCube != null)
         {
             target = nearestCube.transform;
-
-            GameObject bulletGO = bulletPool.GetBullet();
-            bulletGO.transform.position = firePoint.position;
-            Bullet bullet = bulletGO.GetComponent<Bullet>();
-            if (bullet != null)
-                bullet.Seek(target);
+            target.GetChild(0).GetComponent<Cube>().SetIsTarget(true);
         }
-        
+    }
+    private void FireRate()
+    {
+        if (fireCountDown <= 0f)
+        {
+            fireCountDown = .2f;
+            Shoot();
+        }
+        fireCountDown -= Time.deltaTime;
+    }
+    void Shoot()
+    {
+        UpdateTarget();
+        if (target == previousTarget) return;
+        GameObject bulletGO = bulletPool.GetBullet();
+        bulletGO.transform.position = firePoint.position;
+        Bullet bullet = bulletGO.GetComponent<Bullet>();
+        if (bullet != null)
+            bullet.Seek(target);
+        previousTarget = target;
+        target = null;
     }
     public void RemoveCube(GameObject cube)
     {

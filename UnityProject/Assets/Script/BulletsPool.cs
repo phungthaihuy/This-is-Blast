@@ -17,7 +17,6 @@ public class BulletsPool : MonoBehaviour
             bullet.SetActive(false);
             pool.Enqueue(bullet);
         }
-        Debug.Log(pool.Count);
     }
 
     public GameObject GetBullet()
