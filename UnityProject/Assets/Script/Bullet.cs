@@ -6,10 +6,12 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     private Transform target;
+    private BlockShooter shooter;
     private float bulletSpeed = 10f;
-    public void Seek (Transform _target)
+    public void Seek (Transform _target, BlockShooter _shooter)
     {
         target = _target;
+        shooter = _shooter;
     }
     private void Update()
     {
@@ -35,6 +37,19 @@ public class Bullet : MonoBehaviour
         
         Destroy(target.gameObject);
         target = null;
-        FindObjectOfType<BulletsPool>().ReturnBullet(gameObject);
+        //FindObjectOfType<BulletsPool>().ReturnBullet(gameObject);
+        ReturnToPool();
+    }
+    private void ReturnToPool()
+    {
+        if (shooter != null)
+        {
+            BulletsPool pool = GameManager.Instance.GetPoolForShooter(shooter); //Get Suitable Pool
+            {
+                pool.ReturnBullet(gameObject);
+                return;
+            }
+        }
+        //Destroy(gameObject); 
     }
 }

@@ -123,6 +123,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &619593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 619595}
+  - component: {fileID: 619596}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &619595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619593}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &619596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d129e05f356dd314582ef42a924ce949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1234787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -631,6 +675,30 @@ PrefabInstance:
       propertyPath: bulletPool
       value: 
       objectReference: {fileID: 1992803378}
+    - target: {fileID: 842129397201427774, guid: d0ac827f356995f47b36c349cd73b31c, type: 3}
+      propertyPath: blocksShooter.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 842129397201427774, guid: d0ac827f356995f47b36c349cd73b31c, type: 3}
+      propertyPath: shootPosition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 842129397201427774, guid: d0ac827f356995f47b36c349cd73b31c, type: 3}
+      propertyPath: blocksShooter.Array.data[0]
+      value: 
+      objectReference: {fileID: 881596554}
+    - target: {fileID: 842129397201427774, guid: d0ac827f356995f47b36c349cd73b31c, type: 3}
+      propertyPath: blocksShooter.Array.data[1]
+      value: 
+      objectReference: {fileID: 826406147}
+    - target: {fileID: 842129397201427774, guid: d0ac827f356995f47b36c349cd73b31c, type: 3}
+      propertyPath: shootPosition.Array.data[0]
+      value: 
+      objectReference: {fileID: 1315092172}
+    - target: {fileID: 842129397201427774, guid: d0ac827f356995f47b36c349cd73b31c, type: 3}
+      propertyPath: shootPosition.Array.data[1]
+      value: 
+      objectReference: {fileID: 1366173223}
     - target: {fileID: 2773630165069406817, guid: d0ac827f356995f47b36c349cd73b31c, type: 3}
       propertyPath: poolSize
       value: 10
@@ -3464,6 +3532,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8129358148952495171, guid: 7c92175540a20364c9df909278dd8ab9, type: 3}
   m_PrefabInstance: {fileID: 785395592}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &826406147 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 549479646361874410, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
+  m_PrefabInstance: {fileID: 1410949471}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &852129776
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3525,6 +3598,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8129358148952495171, guid: 7c92175540a20364c9df909278dd8ab9, type: 3}
   m_PrefabInstance: {fileID: 852129776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &881596554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5864037450204128177, guid: d0ac827f356995f47b36c349cd73b31c, type: 3}
+  m_PrefabInstance: {fileID: 174859324}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &884637201
 PrefabInstance:
@@ -5117,7 +5195,7 @@ GameObject:
   - component: {fileID: 1303714821}
   - component: {fileID: 1303714822}
   m_Layer: 0
-  m_Name: 2
+  m_Name: start2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5326,7 +5404,7 @@ GameObject:
   - component: {fileID: 1315092173}
   - component: {fileID: 1315092174}
   m_Layer: 0
-  m_Name: 1
+  m_Name: shoot1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5658,7 +5736,7 @@ GameObject:
   - component: {fileID: 1366173224}
   - component: {fileID: 1366173225}
   m_Layer: 0
-  m_Name: 2
+  m_Name: shoot2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5931,12 +6009,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 549479646361874410, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6732531900674412901, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
       propertyPath: bulletPool
       value: 
       objectReference: {fileID: 1410949473}
+    - target: {fileID: 6732531900674412901, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
+      propertyPath: blocksShooter.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732531900674412901, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
+      propertyPath: shootPosition.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6732531900674412901, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
+      propertyPath: blocksShooter.Array.data[0]
+      value: 
+      objectReference: {fileID: 881596554}
+    - target: {fileID: 6732531900674412901, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
+      propertyPath: blocksShooter.Array.data[1]
+      value: 
+      objectReference: {fileID: 826406147}
+    - target: {fileID: 6732531900674412901, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
+      propertyPath: shootPosition.Array.data[0]
+      value: 
+      objectReference: {fileID: 1315092172}
+    - target: {fileID: 6732531900674412901, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
+      propertyPath: shootPosition.Array.data[1]
+      value: 
+      objectReference: {fileID: 1366173223}
     - target: {fileID: 7330296229427834644, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.6666665
@@ -6008,7 +6110,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8123635966351044154, guid: 4962e888740d1ab42b1916b7966dcab2, type: 3}
   m_PrefabInstance: {fileID: 1410949471}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 826406147}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8238035bcd6e164eb927c46153a54a1, type: 3}
@@ -7223,7 +7325,7 @@ GameObject:
   - component: {fileID: 1833587852}
   - component: {fileID: 1833587853}
   m_Layer: 0
-  m_Name: 1
+  m_Name: start1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7922,7 +8024,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2773630165069406817, guid: d0ac827f356995f47b36c349cd73b31c, type: 3}
   m_PrefabInstance: {fileID: 174859324}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 881596554}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8238035bcd6e164eb927c46153a54a1, type: 3}
@@ -8759,3 +8861,4 @@ SceneRoots:
   - {fileID: 2036477796}
   - {fileID: 1561405209}
   - {fileID: 1791020119}
+  - {fileID: 619595}

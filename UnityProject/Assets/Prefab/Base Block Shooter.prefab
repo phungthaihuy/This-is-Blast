@@ -184,7 +184,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 5876340788234340832}
+  shooterRotation: {fileID: 3615154631186744118}
   bulletPool: {fileID: 2822940785947705880}
+  ren: {fileID: 1094426092402186513}
+  shootPosition: []
+  blocksShooter: []
   cubes: []
 --- !u!114 &2822940785947705880
 MonoBehaviour:
