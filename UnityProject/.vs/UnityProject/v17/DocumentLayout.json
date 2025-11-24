@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|e:\\unity\\thisisblast\\this-is-blast\\unityproject\\assets\\script\\blockshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\blockshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\assets\\script\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\assets\\script\\ui\\progressbarlevelui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\progressbarlevelui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\assets\\script\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\assets\\script\\bulletspool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bulletspool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|e:\\unity\\thisisblast\\this-is-blast\\unityproject\\assets\\script\\blockshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\blockshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\assets\\script\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\assets\\script\\bulletspool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B580621-09B4-68CB-B5F4-5B9DD210A60F}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bulletspool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,64 +42,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
-              "ToolTip": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Script\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProgressBarLevelUI.cs",
+              "DocumentMoniker": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\UI\\ProgressBarLevelUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\UI\\ProgressBarLevelUI.cs",
+              "ToolTip": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\UI\\ProgressBarLevelUI.cs",
+              "RelativeToolTip": "Assets\\Script\\UI\\ProgressBarLevelUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T17:42:29.629Z"
+              "WhenOpened": "2025-11-13T12:07:59.58Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Cube.cs",
               "DocumentMoniker": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\Cube.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Cube.cs",
               "ToolTip": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\Cube.cs",
               "RelativeToolTip": "Assets\\Script\\Cube.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T04:16:41.37Z"
+              "WhenOpened": "2025-11-02T04:16:41.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
+              "ToolTip": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwDkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T17:42:29.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BlockShooter.cs",
               "DocumentMoniker": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\BlockShooter.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\BlockShooter.cs",
               "ToolTip": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\BlockShooter.cs",
               "RelativeToolTip": "Assets\\Script\\BlockShooter.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAmwAcAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAxwI0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T12:46:55.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BulletsPool.cs",
               "DocumentMoniker": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\BulletsPool.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\BulletsPool.cs",
               "ToolTip": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\BulletsPool.cs",
               "RelativeToolTip": "Assets\\Script\\BulletsPool.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T13:00:53.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Bullet.cs",
               "DocumentMoniker": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Bullet.cs",
               "ToolTip": "E:\\Unity\\ThisIsBlast\\This-is-Blast\\UnityProject\\Assets\\Script\\Bullet.cs",
               "RelativeToolTip": "Assets\\Script\\Bullet.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDAAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T12:41:42.112Z"
+              "WhenOpened": "2025-11-01T12:41:42.112Z",
+              "EditorCaption": ""
             }
           ]
         }

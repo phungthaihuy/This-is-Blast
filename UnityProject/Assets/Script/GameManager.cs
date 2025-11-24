@@ -5,9 +5,14 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
+    public static float progressBarImagesUINormalized;
 
+    private const string CUBE = "Cube";
     private Dictionary<BlockShooter, BulletsPool> shooterPools = new Dictionary<BlockShooter, BulletsPool>();
+    public List<GameObject> cubes;
 
+    private int totalCubes;
+    private int cubesNormalized;
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -18,7 +23,17 @@ public class GameManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
-
+    private void Start()
+    {
+        cubes = new List<GameObject>(GameObject.FindGameObjectsWithTag(CUBE));
+        totalCubes = cubes.Count;
+    }
+    private void Update()
+    {
+        cubesNormalized = cubes.Count;
+        progressBarImagesUINormalized = (float)cubesNormalized / totalCubes;
+        Debug.Log(progressBarImagesUINormalized);
+    }
     // Register: Call Shooter at Awake
     public void RegisterShooterPool(BlockShooter shooter, BulletsPool pool)
     {
@@ -36,5 +51,10 @@ public class GameManager : MonoBehaviour
             return pool;
         }
         return null;
+    }
+
+    public float GetProgressBarImagesUINormalized()
+    {
+        return progressBarImagesUINormalized;
     }
 }

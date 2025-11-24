@@ -13,17 +13,18 @@ public class BlockShooter : MonoBehaviour
 
     private const string CUBE = "Cube";
 
-    public List<GameObject> cubes;
+    private List<GameObject> cubes;
     private GameObject nearestCube = null;
     private GameObject selectedObject;
     private Transform target;
     private Transform previousTarget;
 
+    public int bullets;
     private float moveSpeed = 20f;
     private float rotationSpeed = 10f;
     private float fireCountDown = 0f;
     private int shootOrder = 0;
-    bool getIsTargetCube;
+    private bool getIsTargetCube;
 
 
     private void Awake()
@@ -33,20 +34,20 @@ public class BlockShooter : MonoBehaviour
     }
     void Start()
     {
-        cubes = new List<GameObject>(GameObject.FindGameObjectsWithTag("Cube"));
+        cubes = GameManager.Instance.cubes;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(shootOrder);
+        Debug.Log("shootOrder: " + shootOrder);
         MoveThenShoot();
         
         foreach (GameObject item in shootPosition)
         {
             if (gameObject.transform.parent == item.gameObject.transform)
             {
-                FireRate();
+                if (bullets > 0) FireRate();
             }
         }
         
@@ -123,21 +124,22 @@ public class BlockShooter : MonoBehaviour
         if (fireCountDown <= 0f)
         {
             fireCountDown = .2f;
+            UpdateTarget();
+            if (target == null) return;
+            ShooterRotation();
+            if (target == previousTarget) return;
             Shoot();
         }
         fireCountDown -= Time.deltaTime;
     }
     void Shoot()
     {
-        UpdateTarget();
-        if (target == null) return;
-        ShooterRotation();
-        if (target == previousTarget) return;
         GameObject bulletGO = bulletPool.GetBullet();
         bulletGO.transform.position = firePoint.position;
         Bullet bullet = bulletGO.GetComponent<Bullet>();
         if (bullet != null)
             bullet.Seek(target, this);
+        bullets--;
         previousTarget = target;
         target = null;
     }

@@ -37,7 +37,6 @@ public class Bullet : MonoBehaviour
         
         Destroy(target.gameObject);
         target = null;
-        //FindObjectOfType<BulletsPool>().ReturnBullet(gameObject);
         ReturnToPool();
     }
     private void ReturnToPool()
